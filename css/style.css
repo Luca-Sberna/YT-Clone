@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap");
+
+body {
+  display: flex;
+  margin: 0 auto;
+  height: 100vh;
+
+  font-family: "Roboto", sans-serif;
+}
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main {
+  width: 100%;
+}
+#content {
+  height: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  margin-left: 8rem;
+}
+.sidebar-icon {
+  padding: 2.5em;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.sidebar-icon p {
+  margin: 0 auto;
+}
+.sidebar-icon ion-icon {
+  font-size: 1.5em;
+}
+#topbar {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  height: 50%;
+}
+#search {
+  display: flex;
+  height: 30%;
+}
+#topbar-icons {
+  display: flex;
+}
+
+.topbar-icon ion-icon {
+  font-size: 1.7em;
+  padding: 0 0.4em;
+  margin: 0;
+}
+.mic {
+  font-size: 1.3em;
+  margin: 0 0.3em;
+  align-items: center;
+  display: flex;
+}
+#search-btn {
+  padding: 0 0.2em;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+}
+
+#content div {
+  padding: 3px;
+  width: 30%;
+}
+.info-text {
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+#user-logo {
+  height: 3em;
+  padding: 0.7em;
+  display: flex;
+}
+#img {
+  height: 45%;
+  margin: 0 1rem;
+  display: flex;
+  width: 90%;
+}
+.info-bar {
+  display: flex;
+  align-items: center;
+}
