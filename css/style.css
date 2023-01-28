@@ -24,13 +24,17 @@ body {
   margin-left: 8rem;
 }
 .sidebar-icon {
-  padding: 2.5em;
+  padding: 2.4em;
+  margin-top: -1.2rem;
   font-size: 1.2em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
+}
+#home-icon {
+  margin-top: 3rem;
 }
 
 .sidebar-icon p {
@@ -44,9 +48,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 0;
 }
 #logo {
   height: 50%;
+  cursor: pointer;
 }
 #search {
   display: flex;
@@ -54,6 +60,7 @@ body {
 }
 #topbar-icons {
   display: flex;
+  cursor: pointer;
 }
 
 .topbar-icon ion-icon {
@@ -66,12 +73,14 @@ body {
   margin: 0 0.3em;
   align-items: center;
   display: flex;
+  cursor: pointer;
 }
 #search-btn {
   padding: 0 0.2em;
   font-size: 1em;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 #content div {
@@ -88,12 +97,18 @@ body {
   display: flex;
 }
 #img {
-  height: 45%;
+  height: 55%;
   margin: 0 1rem;
   display: flex;
-  width: 90%;
+  width: 95%;
 }
 .info-bar {
   display: flex;
   align-items: center;
+}
+.info-text p {
+  margin-top: 0;
+}
+.info-text h3 {
+  margin-bottom: 0;
 }
